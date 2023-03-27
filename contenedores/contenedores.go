@@ -26,10 +26,6 @@ func Listas() {
 	}
 }
 
-func Heap() {
-
-}
-
 func Anillo() {
 	ring1 := ring.New(3)
 
