@@ -34,6 +34,6 @@ func Slice() {
 	coloresSlice = append(coloresSlice, "Blanco")
 	fmt.Println(coloresSlice)
 	// Eliminar dato
-	coloresSlice = append(coloresSlice[:2], coloresSlice[2+1:]...)
+	coloresSlice = append(coloresSlice[:2], coloresSlice[3:]...)
 	fmt.Println(coloresSlice)
 }

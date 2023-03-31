@@ -14,6 +14,11 @@ import (
 const NUM_PROG = 2
 const NOM_PROG = "main.go"
 
+const (
+	NUM_PROG1 = 1
+	NOM_PROG1 = "main.go"
+)
+
 /*
   Declaración de variables
   var variable tipo = valor
@@ -28,9 +33,9 @@ func Booleanos() {
 }
 
 func Enteros() {
-	var numero int = 0
-	numero1 := 1
-	fmt.Println(numero, numero1)
+	var entero int = 0
+	entero1 := 1
+	fmt.Println(entero, entero1)
 }
 
 func Flotantes() {
@@ -68,7 +73,7 @@ func Cadenas() {
 	fmt.Println("Concatenación", cadena+cadena1)
 }
 
-func convertirCadenaAEntero() {
+func ConvertirCadenaAEntero() {
 	s := "123"
 
 	// Cadena a entero
@@ -83,7 +88,7 @@ func convertirCadenaAEntero() {
 
 }
 
-func convertirCadenaAFloat() {
+func ConvertirCadenaAFloat() {
 	cadena := "3.14159265"
 	if s, err := strconv.ParseFloat(cadena, 32); err == nil {
 		fmt.Println(s, reflect.TypeOf(s))

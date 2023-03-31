@@ -1,10 +1,6 @@
 package main
 
-import (
-	"main/gorutina"
-)
-
 func main() {
-	gorutina.SumarTodo()
+	// Llamar la función a evaluar
 
 }

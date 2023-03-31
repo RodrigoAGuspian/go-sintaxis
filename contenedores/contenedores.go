@@ -22,7 +22,7 @@ func Listas() {
 	lista.PushFrontList(lista2)
 
 	for item := lista.Front(); item != nil; item = item.Next() {
-		fmt.Println(item)
+		fmt.Println(item, item.Value)
 	}
 }
 

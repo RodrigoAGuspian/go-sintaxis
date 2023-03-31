@@ -2,6 +2,11 @@ package tipoStruct
 
 import "fmt"
 
+/*
+	Los atributos en una estructura pueden ser
+	públicos (mayúscula inicial) o privados (minúscula inicial)
+*/
+
 type Estructura struct {
 	numero        int
 	cadena        string

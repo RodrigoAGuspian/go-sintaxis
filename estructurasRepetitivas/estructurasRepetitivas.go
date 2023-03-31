@@ -6,6 +6,7 @@ func CicloFor() {
 	suma := 0
 	for i := 1; i < 5; i++ {
 		suma += i
+		fmt.Println("valor de i:", i)
 	}
 	fmt.Println(suma)
 }
